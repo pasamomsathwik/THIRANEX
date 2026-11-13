@@ -13,7 +13,7 @@ Welcome to my internship project showcase! This repository is where I share the 
 ## About Me
 
 - **Name:** Om Sathwik
-- **Branch / Department:** [Add your branch or department]
+- **Branch / Department:** Computer Science And Engineering
 - **Current role:** Intern at Thiranex
 
 I’m at the beginning of my development journey, and I’m excited to learn, experiment, and turn new ideas into working projects. Each project is an opportunity to practice what I’ve learned, improve my problem-solving skills, and grow as a developer. I’ll share my progress here as I take on new challenges.

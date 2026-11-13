@@ -6,10 +6,6 @@
   <h3>Full Stack Developer · Building modern web experiences</h3>
   <p>Creative • Skilled • Reliable</p>
 
-  <a href="https://pasamomsathwik.github.io/Portfolio-Website/">
-    <img src="https://img.shields.io/badge/VISIT_MY_PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio website" />
-  </a>
-
 </div>
 
 A modern, responsive personal portfolio website showcasing my skills, services, selected projects, and professional background.

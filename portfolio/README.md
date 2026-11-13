@@ -1,31 +1,43 @@
-# Om Sathwik — Portfolio
+# Portfolio Website
 
-A responsive, single-page portfolio website for Om Sathwik, built with plain HTML, CSS, and JavaScript. The design includes a mobile navigation menu, about and skills sections, services, project concept cards, and a contact call to action. Project artwork is created in CSS, so the site does not require local image assets or a build step.
+<div align="center">
 
-## Contents
+  <h1>Hi, I'm Om Sathwik</h1>
+  <h3>Full Stack Developer · Building modern web experiences</h3>
+  <p>Creative • Skilled • Reliable</p>
 
-- `index.html` — page structure and content
-- `style.css` — styling, responsive layouts, and project artwork
-- `script.js` — accessible mobile navigation behavior
+</div>
 
-## Run locally
+A modern, responsive personal portfolio website showcasing my skills, services, selected projects, and professional background.
 
-Open `index.html` in a browser, or serve this folder with any static file server. For example:
+## About
+
+The portfolio introduces me as a full-stack developer and presents my work in a polished, easy-to-navigate format.
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Features
+
+- Responsive layout and mobile navigation
+- About and skills section
+- Services overview
+- Selected project showcase
+- CV view and download links
+- Contact section
+
+## Run Locally
+
+Clone or download this repository, then open `index.html` in a browser.
 
 ```bash
-cd portfolio
-python -m http.server 8000
+git clone https://github.com/pasamomsathwik/Portfolio-Website.git
+cd Portfolio-Website
 ```
 
-Then visit <http://localhost:8000>.
+## Live Website
 
-## Customize
-
-- Update the name, biography, skills, services, and project descriptions in `index.html`.
-- Replace `hello@example.com` in the contact link with your preferred email address.
-- Change the theme colors and layout in `style.css`.
-- Google Fonts are loaded remotely; system font fallbacks are provided.
-
-## GitHub Pages
-
-The portfolio lives at `https://pasamomsathwik.github.io/THIRANEX/portfolio/` once GitHub Pages is enabled for the repository's `main` branch and root folder. The existing repository homepage remains unchanged.
+[Open my portfolio website](https://pasamomsathwik.github.io/Portfolio-Website/)

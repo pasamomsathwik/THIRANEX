@@ -2,9 +2,15 @@
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Om+Sathwik;Full+Stack+Developer;Building+Modern+Web+Experiences" alt="Typing banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Om+Sathwik;Full+Stack+Developer;Building+Modern+Web+Experiences" alt="Hello, I'm Om Sathwik — Full Stack Developer" />
 
-  <br/>
+  <br/><br/>
+
+  <a href="https://pasamomsathwik.github.io/Poertfolio-Website/">
+    <img src="https://img.shields.io/badge/🚀_VISIT_MY_PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio website" />
+  </a>
+
+  <br/><br/>
 
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d4d-11eb-8d8a-1bd1d8d.jpg" width="600" alt="Portfolio banner" />
 

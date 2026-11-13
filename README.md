@@ -1,4 +1,4 @@
-# Thiranex Internship — Project Showcase
+# Thiranex - An Online Internship 
 
 <div align="center">
 

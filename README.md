@@ -6,8 +6,8 @@
   <h3>Full Stack Developer · Building modern web experiences</h3>
   <p>Creative • Skilled • Reliable</p>
 
-  <a href="https://github.com/pasamomsathwik/Poertfolio-Website">
-    <img src="https://img.shields.io/badge/VIEW_PORTFOLIO_PROJECT-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View portfolio project on GitHub" />
+  <a href="https://pasamomsathwik.github.io/Portfolio-Website/">
+    <img src="https://img.shields.io/badge/VISIT_MY_PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio website" />
   </a>
 
 </div>
@@ -38,13 +38,13 @@ The portfolio introduces me as a full-stack developer and presents my work in a 
 Clone or download this repository, then open `index.html` in a browser.
 
 ```bash
-git clone https://github.com/pasamomsathwik/Poertfolio-Website.git
-cd Poertfolio-Website
+git clone https://github.com/pasamomsathwik/Portfolio-Website.git
+cd Portfolio-Website
 ```
 
 ## Live Website
 
-The live-site button can be linked here after GitHub Pages is published. To publish it, open the repository's **Settings → Pages**, choose the `main` branch and `/ (root)` folder as the deployment source, and save. GitHub will show the live URL there.
+[Open my portfolio website](https://pasamomsathwik.github.io/Portfolio-Website/)
 
 ---
 

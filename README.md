@@ -2,74 +2,49 @@
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Om+Sathwik;Full+Stack+Developer;Building+Modern+Web+Experiences" alt="Hello, I'm Om Sathwik — Full Stack Developer" />
+  <h1>Hi, I'm Om Sathwik</h1>
+  <h3>Full Stack Developer · Building modern web experiences</h3>
+  <p>Creative • Skilled • Reliable</p>
 
-  <br/><br/>
-
-  <a href="https://pasamomsathwik.github.io/Poertfolio-Website/">
-    <img src="https://img.shields.io/badge/🚀_VISIT_MY_PORTFOLIO-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio website" />
+  <a href="https://github.com/pasamomsathwik/Poertfolio-Website">
+    <img src="https://img.shields.io/badge/VIEW_PORTFOLIO_PROJECT-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View portfolio project on GitHub" />
   </a>
-
-  <br/><br/>
-
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d4d-11eb-8d8a-1bd1d8d.jpg" width="600" alt="Portfolio banner" />
-
-  <br/>
-
-  <h3>✨ Creative • Skilled • Reliable ✨</h3>
 
 </div>
 
-A modern and responsive personal portfolio website designed to showcase my skills, projects, and professional experience in a clean and engaging way.
+A modern, responsive personal portfolio website showcasing my skills, services, selected projects, and professional background.
 
-## Overview
+## About
 
-This portfolio highlights:
-- My introduction and personal brand
-- Technologies and skills
-- Services I offer
-- Selected projects and work
-- Downloadable CV
-- Contact section for collaboration opportunities
+The portfolio introduces me as a full-stack developer and presents my work in a polished, easy-to-navigate format.
 
 ## Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Responsive Web Design
 
 ## Features
 
-- Modern landing page
-- User-friendly navigation
-- Professional design aesthetic
-- Mobile responsive layout
-- Project showcase section
-- Contact call-to-action
-- CV download option
-
-## Project Structure
-
-```bash
-Portfolio-Website/
-├── index.html
-├── style.css
-├── README.md
-└── images/
-```
+- Responsive layout and mobile navigation
+- About and skills section
+- Services overview
+- Selected project showcase
+- CV view and download links
+- Contact section
 
 ## Run Locally
+
+Clone or download this repository, then open `index.html` in a browser.
 
 ```bash
 git clone https://github.com/pasamomsathwik/Poertfolio-Website.git
 cd Poertfolio-Website
-open index.html
 ```
 
-## Connect
+## Live Website
 
-Let's build something meaningful together.
+The live-site button can be linked here after GitHub Pages is published. To publish it, open the repository's **Settings → Pages**, choose the `main` branch and `/ (root)` folder as the deployment source, and save. GitHub will show the live URL there.
 
 ---
 

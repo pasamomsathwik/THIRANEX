@@ -34,10 +34,10 @@ The portfolio introduces me as a full-stack developer and presents my work in a 
 Clone or download this repository, then open `index.html` in a browser.
 
 ```bash
-git clone https://github.com/pasamomsathwik/Portfolio-Website.git
-cd Portfolio-Website
+git clone https://github.com/pasamomsathwik/THIRANEX.git
+cd THIRANEX/portfolio
 ```
 
 ## Live Website
 
-[Open my portfolio website](https://pasamomsathwik.github.io/Portfolio-Website/)
+[Open my portfolio website](https://pasamomsathwik.github.io/THIRANEX/portfolio/)

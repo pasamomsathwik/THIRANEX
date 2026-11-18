@@ -1,61 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101210">
-  <meta name="description" content="Om Sathwik — full-stack developer building thoughtful digital experiences.">
-  <title>Om Sathwik — Full-Stack Developer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Pasam Om Sathwik, Computer Science student.">
+    <title>Pasam Om Sathwik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="hero" id="home">
-    <nav class="nav wrap" aria-label="Main navigation">
-      <a class="wordmark" href="#home" aria-label="Om Sathwik home">OS<span>.</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#work">Work</a></li>
-        <li><a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></li>
-      </ul>
+   <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Pasam Om Sathwik home">
+            <svg class="brand-icon" viewBox="0 0 48 48" role="img" aria-label="Sathwik portfolio logo">
+                <path d="M24 5 40 14v20L24 43 8 34V14L24 5Z" fill="currentColor"/>
+                <path d="M15 32V16h10.5c5.3 0 8.5 2.7 8.5 7.2 0 4.6-3.2 7.3-8.5 7.3H20v1.5h-5Zm5-5.5h5.2c2.4 0 3.8-1.1 3.8-3.3 0-2.1-1.4-3.2-3.8-3.2H20v6.5Z" fill="#101010"/>
+                <path d="M13 38h22" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+        </a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certificates</a>
+            <a href="#contact">Contact</a>
+            <a href="#cv">CV</a>
+        </div>
     </nav>
-    <div class="hero-content wrap">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> FULL-STACK DEVELOPER · INDIA</p>
-        <h1>Building for the<br>web, <span>end to end.</span></h1>
-        <p class="intro">Hi, I’m <strong>Om Sathwik</strong>. I create useful, polished digital experiences—from thoughtful interfaces to dependable systems.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="simple-link" href="#about">A little about me <span aria-hidden="true">→</span></a></div>
-        <p class="hero-note"><span></span> OPEN TO INTERESTING PROJECTS</p>
-      </div>
-      <div class="hero-art" aria-label="Abstract illustration of a developer workspace">
-        <div class="art-glow"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="code-card"><div class="window-bar"><i></i><i></i><i></i><span>building-things.js</span></div><div class="code-lines"><p><b>01</b> <span class="code-purple">const</span> <span class="code-blue">idea</span> = {</p><p><b>02</b> &nbsp; curiosity: <span class="code-green">true</span>,</p><p><b>03</b> &nbsp; craft: <span class="code-orange">"always"</span>,</p><p><b>04</b> &nbsp; impact: <span class="code-green">"real"</span></p><p><b>05</b> };</p><p class="code-gap"><b>06</b> </p><p><b>07</b> <span class="code-purple">build</span>(idea);<span class="cursor"></span></p></div><div class="card-foot"><span>✳ &nbsp; DESIGN-MINDED DEVELOPMENT</span><span>01 — 04</span></div></div>
-        <div class="art-label">GOOD IDEAS<br>MADE REAL<span>✳</span></div>
-      </div>
-    </div>
-    <a class="scroll-hint" href="#about"><span></span> SCROLL TO EXPLORE</a>
-  </header>
-  <main>
-    <section class="section about" id="about"><div class="wrap">
-      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span>Builder by choice.</span></h2></div>
-      <div class="about-grid"><div class="about-mark" aria-hidden="true"><span>OS</span><i>✳</i><small>MAKING THE WEB<br>A LITTLE BETTER</small></div>
-        <div class="about-copy"><p class="lead">I enjoy turning complex ideas into simple, intuitive experiences.</p><p>As a full-stack developer, I work across the whole product—shaping clean interfaces, building dependable server-side systems, and connecting the details that make an experience feel right.</p><a class="simple-link dark-link" href="#contact">Let’s make something great <span aria-hidden="true">↗</span></a></div>
-        <div class="skills-panel"><div class="panel-title"><span class="eyebrow">MY TOOLKIT</span><span class="spark">✳</span></div><div class="skill-group"><h3>FRONT END</h3><div class="tags"><span>HTML & CSS</span><span>JavaScript</span><span>React</span><span>Responsive UI</span></div></div><div class="skill-group"><h3>BACK END</h3><div class="tags"><span>Node.js</span><span>Python</span><span>REST APIs</span></div></div><div class="skill-group"><h3>DATA & TOOLS</h3><div class="tags"><span>SQL</span><span>MongoDB</span><span>Git & GitHub</span></div></div></div>
-      </div>
-    </div></section>
-    <section class="section services" id="services"><div class="wrap"><div class="section-top"><div class="section-heading"><p class="eyebrow">HOW I CAN HELP</p><h2>Good ideas deserve<br><span>great execution.</span></h2></div><p class="section-aside">Thoughtful development at every layer, with an eye on the details and the bigger picture.</p></div>
-      <div class="service-grid"><article class="service-card"><span class="number">01</span><span class="service-icon">&lt;/&gt;</span><h3>Frontend development</h3><p>Responsive, accessible interfaces that feel fast, clear, and natural to use.</p></article><article class="service-card"><span class="number">02</span><span class="service-icon">{ }</span><h3>Backend development</h3><p>Reliable APIs and server-side foundations designed to support real products.</p></article><article class="service-card"><span class="number">03</span><span class="service-icon">✳</span><h3>Full-stack solutions</h3><p>Connected end-to-end experiences, from data and logic to the interface.</p></article></div>
-    </div></section>
-    <section class="section work" id="work"><div class="wrap"><div class="section-top"><div class="section-heading"><p class="eyebrow">SELECTED PROJECTS</p><h2>Some things I’ve<br><span>put together.</span></h2></div><p class="section-aside">A few ideas and product directions that show the kinds of experiences I love to build.</p></div>
-      <div class="project-grid"><article class="project-card"><a class="project-visual visual-one" href="#contact" aria-label="Ask about the Everyday project"><div class="phone"><div class="phone-top">9:41 <span>●●●</span></div><div class="phone-greeting">Good morning,<br><strong>Alex ✨</strong></div><div class="phone-widget widget-orange"><span>YOUR DAY</span><b>A little more<br>in balance.</b><i>↗</i></div><div class="phone-row"><i>◷</i><span>Today's plan</span><b>›</b></div><div class="phone-row"><i>✳</i><span>Small wins</span><b>›</b></div></div><span class="visual-arrow">↗</span></a><div class="project-meta"><div><h3>Everyday, made easier</h3><p>Mobile experience · Product concept</p></div><span>01 / 03</span></div></article>
-      <article class="project-card"><a class="project-visual visual-two" href="#contact" aria-label="Ask about the Soundwave project"><div class="music-card"><span class="music-kicker">YOUR NEXT OBSESSION</span><div class="album-art"><i></i><i></i><i></i><i></i><i></i></div><b>Find your frequency.</b><span>Discover something new today.</span><div class="music-controls">◀　<span>▶</span>　▶</div></div><span class="visual-arrow">↗</span></a><div class="project-meta"><div><h3>Find your next favorite</h3><p>Music discovery · Product concept</p></div><span>02 / 03</span></div></article>
-      <article class="project-card"><a class="project-visual visual-three" href="#contact" aria-label="Ask about the Form project"><div class="shop-card"><span class="shop-brand">FORM<span>.</span></span><div class="shop-object"><i></i><b></b></div><span class="shop-kicker">OBJECTS FOR SLOW LIVING</span><strong>Less, but<br>better.</strong><span class="shop-button">DISCOVER THE COLLECTION ↗</span></div><span class="visual-arrow">↗</span></a><div class="project-meta"><div><h3>Shopping, simplified</h3><p>E-commerce · Product concept</p></div><span>03 / 03</span></div></article></div>
-    </div></section>
-    <section class="contact" id="contact"><div class="wrap contact-inner"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s build<br><span>what’s next.</span></h2><p class="contact-copy">Have an idea, a role, or just want to say hello? I’d love to hear from you.</p><a class="button button-primary" href="mailto:hello@example.com">Get in touch <span aria-hidden="true">↗</span></a><div class="contact-decoration" aria-hidden="true">OS<span>.</span></div></div></section>
-  </main>
-  <footer class="footer"><div class="wrap footer-inner"><a class="wordmark" href="#home">OS<span>.</span></a><p>Designed & built by Om Sathwik</p><a href="#home">Back to top ↑</a></div></footer>
+</header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">B.Tech Computer Science Student</p>
+                <h1>Hi, I'm <span>Pasam Om Sathwik</span></h1>
+                <p>
+                    I’m a CSE student learning about technology and software development.
+                    I’m building my skills and working toward a career in tech.
+                </p>
+                <a class="button" href="#projects">View My Work</a>
+            </div>
+            <img class="hero-image" src="img.1.png" alt="Pasam Om Sathwik">
+        </section>
+
+        <section class="section container" id="cv">
+            <p class="eyebrow">A little more about my journey</p>
+            <h2>Here’s My CV</h2>
+            <div class="card">
+                <p>Explore my education, skills, projects, and certifications in one place.</p>
+                <a class="button" href="images/my-cv-exact.pdf" target="_blank" rel="noopener">
+                    View My CV
+                </a>
+                <a class="button" href="images/my-cv-exact.pdf" download>
+                    Download My CV
+                </a>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <p class="eyebrow">A little about me</p>
+            <h2>About Me</h2>
+
+            <div class="about-layout">
+                <img class="about-image" src="img.2.png" alt="Portrait of Sathwik">
+                <div>
+                    <p>
+                        I’m a Computer Science and Engineering student interested in
+                        technology and programming. My goal is to keep learning, build
+                        practical skills, and grow into a software professional.
+                    </p>
+
+                    <h3>Education</h3>
+                    <div class="education-list">
+                        <article class="card">
+                            <span class="badge">In progress</span>
+                            <h4>B.Tech — Computer Science and Engineering</h4>
+                            <p>2024–2028</p>
+                        </article>
+                        <article class="card">
+                            <h4>Intermediate — 89%</h4>
+                            <p>Vertex Junior College, Miyapur · 2023</p>
+                        </article>
+                        <article class="card">
+                            <h4>10th — 100%</h4>
+                            <p>St. Peter’s High School · 2021</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <p class="eyebrow">What I’m learning</p>
+            <h2>Skills</h2>
+            <div class="card coming-soon">
+                <span class="badge">Coming soon</span>
+                <p>My technical skills will be listed here.</p>
+            </div>
+        </section>
+
+        <section class="section container" id="projects">
+            <p class="eyebrow">Things I’m building</p>
+            <h2>Projects</h2>
+            <div class="card coming-soon">
+                <span class="badge">Coming soon</span>
+                <p>My projects and the technologies used will be listed here.</p>
+                <a class="button" href="https://github.com/pasamomsathwik"
+                   target="_blank" rel="noopener noreferrer">View my projects on GitHub</a>
+            </div>
+        </section>
+
+        <section class="section container" id="certifications">
+            <p class="eyebrow">Learning milestones</p>
+            <h2>Certificates</h2>
+            <div class="card coming-soon">
+                <span class="badge">Coming soon</span>
+                <p>My completed certifications will be listed here.</p>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contact">
+            <p class="eyebrow">Have a question or opportunity?</p>
+            <h2>Let’s Connect</h2>
+
+            <div class="social-links">
+                <a href="mailto:pasamomsathwik0@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/pasam-om-sathwik-763a3b33b"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+
+            <form id="contact-form"
+                action="https://script.google.com/macros/s/AKfycbz-yVxEEI9jdhp9hEbOvBiqUuO8ccWQ5FRE9A0RnKBHcnbath6BNWwxJluwOaXPftGWRg/exec"
+                method="post"
+                accept-charset="UTF-8">
+                <label for="name">Name</label>
+                <input id="name" name="NAME" type="text" autocomplete="name"
+                    minlength="2" maxlength="80" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="EMAIL" type="email" autocomplete="email"
+                    maxlength="150" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="MESSAGE" rows="5"
+                    minlength="10" maxlength="2000" required></textarea>
+
+                <button class="button" id="submit-button" type="submit">Submit</button>
+                <p id="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Pasam Om Sathwik</p>
+    </footer>
 </body>
 </html>

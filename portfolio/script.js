@@ -1,17 +1,30 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const contactForm = document.querySelector("#contact-form");
+const formStatus = document.querySelector("#form-status");
+const submitButton = document.querySelector("#submit-button");
 
-menuToggle.addEventListener('click', () => {
-  const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
-  menuToggle.setAttribute('aria-expanded', String(!isOpen));
-  menuToggle.setAttribute('aria-label', isOpen ? 'Open navigation' : 'Close navigation');
-  navLinks.classList.toggle('is-open', !isOpen);
-});
+contactForm?.addEventListener("submit", async (event) => {
+    event.preventDefault();
 
-navLinks.addEventListener('click', (event) => {
-  if (event.target.closest('a')) {
-    menuToggle.setAttribute('aria-expanded', 'false');
-    menuToggle.setAttribute('aria-label', 'Open navigation');
-    navLinks.classList.remove('is-open');
-  }
+    submitButton.disabled = true;
+    submitButton.textContent = "Submitting...";
+    formStatus.textContent = "Sending your details...";
+
+    try {
+        await fetch(contactForm.action, {
+            method: "POST",
+            body: new URLSearchParams(new FormData(contactForm)),
+            mode: "no-cors"
+        });
+
+        contactForm.reset();
+        formStatus.textContent =
+            "Thank you! Your details have been submitted.";
+    } catch (error) {
+        console.error("Contact form submission failed:", error);
+        formStatus.textContent =
+            "Unable to submit. Please check your connection and try again.";
+    } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = "Submit";
+    }
 });

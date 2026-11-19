@@ -1,47 +1,131 @@
-# Thiranex - An Online Internship 
+# Thiranex - Internship Portfolio
 
 <div align="center">
 
-  <h1>Hi, I'm Om Sathwik 👋</h1>
-  <h3>Thiranex Intern · Beginner Developer</h3>
-  <p>Learning by building, one project at a time</p>
+# Hi, I'm Om Sathwik 👋
+
+### Thiranex Intern · Beginner Developer
+
+*Learning by building, one project at a time*
 
 </div>
 
-Welcome to my internship project showcase! This repository is where I share the projects I work on during my internship with **Thiranex** and the skills I develop along the way.
+Welcome to my GitHub portfolio! This repository documents my learning journey and the projects I build during my internship with [Thiranex](https://www.thiranex.in/).
 
-## About Me
+## 👨‍💻 About Me
 
 - **Name:** Om Sathwik
-- **Branch / Department:** Computer Science And Engineering
-- **Current role:** Intern at Thiranex
+- **Department:** Computer Science and Engineering
+- **Role:** Intern at Thiranex
+- **Focus:** Web development, responsive design, and practical software projects
 
-I’m at the beginning of my development journey, and I’m excited to learn, experiment, and turn new ideas into working projects. Each project is an opportunity to practice what I’ve learned, improve my problem-solving skills, and grow as a developer. I’ll share my progress here as I take on new challenges.
+I enjoy turning ideas into working applications while improving my HTML, CSS, JavaScript, and React skills.
 
-## About Thiranex
+## 🚀 Internship Projects
 
-[Thiranex](https://www.thiranex.in/) works to connect academic learning with practical engineering experience. Its virtual internship programs give students opportunities to explore technical domains, gain hands-on project experience, and continue learning at their own pace.
-
-I’m grateful for the opportunity to learn through this internship and to apply my knowledge by working on projects. You can learn more about the company on the [Thiranex website](https://www.thiranex.in/).
-
-## Internship Projects
-
-This section will grow as I complete projects during my internship. Each project will include a short description, the tools or technologies I used, and a link to its source code or live demo where available.
-
-| Project | Description | Technologies | Link |
+| Project | Description | Technologies | Links |
 | --- | --- | --- | --- |
-| *Project details coming soon* | I’ll add my internship projects here as I complete them. | — | — |
+| **Personal Portfolio** | A modern, responsive portfolio showcasing my skills, services, projects, experience, CV, and contact information. | HTML, CSS, JavaScript | [View Folder](PERSOAL%20PORTFOLIO/) · [View README](PERSOAL%20PORTFOLIO/README.md) |
+| **TaskBuddy** | A React-based task management application for adding, updating, completing, and deleting tasks. Tasks are stored locally in the browser. | React, JavaScript, CSS, Vite | [Open Task Management](https://github.com/pasamomsathwik/THIRANEX/tree/main/TASK%20MANAGEMENT) · [View Details](TASK%20MANAGEMENT/README.md) |
 
-## What I’m Learning
+## 🛠️ Personal Portfolio
 
-- Building projects from an idea to a working result
-- Practicing the tools and technologies used in my projects
-- Improving my problem-solving and debugging skills
-- Learning from feedback and documenting my progress
+The personal portfolio presents my background and professional work in a clean, responsive interface.
 
-## My Goal
+### Portfolio Features
 
-As a beginner, I know I have a lot to learn, and that’s what makes this experience exciting. I’m looking forward to taking on new challenges, building useful projects, and becoming more confident with every step.
+- Responsive layout and mobile-friendly navigation
+- About and skills sections
+- Services overview
+- Selected projects showcase
+- CV view and download options
+- Contact information
+
+### Portfolio Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Run the Portfolio Locally
+
+```bash
+git clone https://github.com/pasamomsathwik/THIRANEX.git
+cd THIRANEX/PERSOAL\ PORTFOLIO
+```
+
+Open `index.html` in a browser.
+
+## ✅ Task Management Application
+
+**TaskBuddy** is a browser-based task manager built with React and Vite.
+
+### TaskBuddy Features
+
+- Create and add tasks
+- Update existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Automatically save tasks in local browser storage
+- Responsive and easy-to-use interface
+
+### Run TaskBuddy Locally
+
+```bash
+cd "TASK MANAGEMENT"
+npm install
+npm run dev
+```
+
+Then open the local address displayed in the terminal, usually `http://localhost:5173`.
+
+### Available Commands
+
+```bash
+npm run dev     # Start the development server
+npm run build   # Create a production build
+npm run lint    # Check the code with Oxlint
+npm run preview # Preview the production build
+```
+
+## 🔧 Repository Technologies
+
+| Technology | Usage |
+| --- | --- |
+| HTML | Page structure and content |
+| CSS | Styling and responsive layouts |
+| JavaScript | Interactivity and application logic |
+| React | Task management interface |
+| Vite | Development and build tooling |
+
+## 📂 Project Structure
+
+```text
+THIRANEX/
+├── PERSOAL PORTFOLIO/
+│   ├── index.html
+│   ├── README.md
+│   ├── assets/
+│   └── ...
+├── TASK MANAGEMENT/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+└── README.md
+```
+
+## 🌐 Links
+
+- [Thiranex Website](https://www.thiranex.in/)
+- [Personal Portfolio Folder](PERSOAL%20PORTFOLIO/)
+- [Task Management Folder](TASK%20MANAGEMENT/)
+- [TaskBuddy README](TASK%20MANAGEMENT/README.md)
+- [Repository Home](https://github.com/pasamomsathwik/THIRANEX)
+
+## 🎯 My Goal
+
+As a beginner developer, I aim to build practical projects, strengthen my problem-solving skills, learn through feedback, and become more confident in modern web development.
 
 ---
 

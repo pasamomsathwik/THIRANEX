@@ -29,18 +29,14 @@ TaskBuddy provides a straightforward way to keep track of tasks in one place, wi
 ## Run Locally
 
 ```bash
+git clone https://github.com/pasamomsathwik/THIRANEX.git
+cd THIRANEX
 cd "TASK MANAGEMENT"
 npm install
 npm run dev
-```
 
-## Checks
+##Checks
 
-```bash
+'''bash
 npm run lint
-npm run build
-```
-
-## Live Website
-
-[Open TaskBuddy](https://pasamomsathwik.github.io/THIRANEX/TASK%20MANAGEMENT/)
+npm run builf

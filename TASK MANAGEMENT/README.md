@@ -26,6 +26,7 @@ TaskBuddy provides a straightforward way to keep track of tasks in one place, wi
 - Save tasks in browser storage so they persist after refresh
 - Develop and build with Vite
 
+
 ## Run Locally
 
 ```bash
@@ -34,9 +35,17 @@ cd THIRANEX
 cd "TASK MANAGEMENT"
 npm install
 npm run dev
+```
+
+Open the Local URL shown in the terminal, typically http://localhost:5173.
+
+Keep the terminal running while using the app.
 
 ##Checks
 
-'''bash
+```bash
+
 npm run lint
-npm run builf
+npm run build
+
+
